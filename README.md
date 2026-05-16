@@ -25,14 +25,13 @@ nba-graph/
 |__ nba.py  
 |__ README.md
 |__ .gitignore
-|__ players.csv
-|__ teams.csv
-|__ games.csv 
+|__ players.csv # dans https://www.kaggle.com/datasets/nathanlauga/players.csv
+|__ teams.csv # dans https://www.kaggle.com/datasets/nathanlauga/teams.csv
+|__ games.csv  # dans https://www.kaggle.com/datasets/nathanlauga/games.csv
 
 ### 2. Dépendances Python
 Les bibliothèques requises doivent être installées en amont dans l'environnement virtuel
-pip install pandas neo4j
-Les datasets sont à télécharger dans ce lien: https://www.kaggle.com/datasets/nathanlauga
+pip install pandas neo4j 
 
 Utilisation et Injection:
   Demarrer votre instance de base de donnees locale sur Neo4j Desktop
