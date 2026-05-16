@@ -2,7 +2,7 @@ import pandas as pd
 from neo4j import GraphDatabase
 
 URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "Zaravola31")
+AUTH = ("username", "password") #mettre les vraies authentification ici, qui est deja crée
 
 def load_clean_data():
     df_players = pd.read_csv('players.csv')
